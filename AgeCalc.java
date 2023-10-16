@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class AgeCalc {
     public static void main(String[] args){
-        Scanner scan = new Scanner();
+        Scanner scan = new Scanner(System.in);
         System.out.println("Date and input format-: dd/mm/yy");
         System.out.println("Enter your DOB ----------");
         System.out.print("Day = ");
